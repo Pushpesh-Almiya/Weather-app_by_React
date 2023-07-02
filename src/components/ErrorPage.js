@@ -1,6 +1,7 @@
 import React from 'react'
 import errorPage from '../img/errorpage.jpg'
 export default function ErrorPage() {
+  document.title = "Weather App- error Page"
   return (
     <>
       <div className="container-fluid Main_header">

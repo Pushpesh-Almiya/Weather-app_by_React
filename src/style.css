@@ -206,6 +206,10 @@ footer p{
     color: #fff;
     line-height: 5rem;
 }
+footer span{
+    color: var(--main-color);
+    font-size: 20px;
+}
 
 /* responsive code */
 @media (max-width:768px){

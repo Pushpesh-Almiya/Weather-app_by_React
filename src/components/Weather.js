@@ -5,7 +5,7 @@ export default function Weather(props) {
   const [cityName, setCityName] = useState("City Name");
   const [temp, setTemp] = useState("");
   const [tempStatus, setTempStatus] = useState("");
-
+  document.title = "Weather App-Weather"
   const enterText = (e) => {
     setText(e.target.value);
   };
@@ -101,7 +101,7 @@ export default function Weather(props) {
               <div className="top_layer">
                 <p id="day">{day}</p>
                 <p id="today_date">
-                  {todayDate} | {currentMonth}
+                  {todayDate} {currentMonth}
                 </p>
               </div>
               <div className="main_layer">

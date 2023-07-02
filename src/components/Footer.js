@@ -3,7 +3,7 @@ export default function Footer() {
   return (
     <>
      <footer>
-      <p>Created by Pushpesh Almiya | All rights reserved © 2023</p>
+      <p>Created by <span>Pushpesh Almiya</span> © Jun 2023</p>
     </footer> 
     </>
   )

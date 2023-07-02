@@ -4,6 +4,7 @@ import bg2 from '../img/bg2.jpg'
 import bg3 from '../img/bg3.jpeg'
 import bg4 from '../img/bg4.jpg'
 export default function Home() {
+  document.title = "Weather App-Home"
   return (
     <>
       <div class="container-fluid main_menu">

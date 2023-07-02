@@ -1,6 +1,7 @@
 import React from 'react'
 import background from "../img/background.jpg"
 export default function About() {
+  document.title = "Weather App-About"
   return (
     <>
       <div class="container-fluid main_menu">
