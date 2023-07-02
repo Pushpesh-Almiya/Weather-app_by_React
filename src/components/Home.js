@@ -3,6 +3,7 @@ import bg1 from '../img/bg1.jpg'
 import bg2 from '../img/bg2.jpg'
 import bg3 from '../img/bg3.jpeg'
 import bg4 from '../img/bg4.jpg'
+import {Link} from 'react-router-dom'
 export default function Home() {
   document.title = "Weather App-Home"
   return (
@@ -20,7 +21,7 @@ export default function Home() {
             <div class="col-md-6 col-12 Main_header_left">
               <p>Welcome to weather app</p>
               <h1>Get the latest <span>weather</span> Report of your town</h1>
-              <a href="/weather"><button>Check Now</button></a>
+              <Link to="/weather"><button>Check Now</button></Link>
             </div>
             <div class="col-md-6 col-12 Main_header_right">
               <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
